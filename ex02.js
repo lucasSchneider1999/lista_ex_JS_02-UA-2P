@@ -9,7 +9,7 @@ for (let i=0 ; i < 4 ; i++){
 }
 //loop para converter o array de tipo string para numerico
 for (i=0 ; i < 4 ; i++){ 
-    var elementoNumerico = parseInt(nota[i]);
+    var elementoNumerico = parseFloat(nota[i]);
     arrayNum.push(elementoNumerico);
 }
 //função que calcula e retorna a media
